@@ -1,0 +1,13 @@
+const _info = `Creating Wireless LAN accounts using defaults of :
+Wireless LAN Conference+ - CONGnnnn in wireless.admin.uman.ac.uk
+    Account name:'conh1014',  password:'strewersp38T_'
+    Account name:'conh1015',  password:'dayeraps63T^'
+    Account name:'conh1016',  password:'fewernim66W?'
+    Account name:'conh1017',  password:'thowerlt37E+'
+Completed`
+
+formatThing = (_info) => {
+const  newInfo = _info.slice(119)
+return newInfo
+
+}
